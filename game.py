@@ -25,12 +25,6 @@ CHOICE = [x for x in range(BLOCK_NOS)]
 
 PLAYER_POS = [x for x in range(0 + int(GAP)//2, WIDTH - int(GAP)//2 - PLAYER_SIZE)]
 
-
-
-# BLOCK_LIST = [(GAP, self.x, OBSTACLE_WIDTH, 30), (OBSTACLE_WIDTH + 2*GAP, self.x, OBSTACLE_WIDTH, 30),
-# 					(2*OBSTACLE_WIDTH + 3*GAP, self.x, OBSTACLE_WIDTH, 30), (3*OBSTACLE_WIDTH + 4*GAP, self.x, OBSTACLE_WIDTH, 30)]
-
-# BLOCK_LIST = [((x+1)*GAP + x*OBSTACLE_WIDTH, self.x, OBSTACLE_WIDTH, 30) for x in range(3)]
 STAT_FONT = pygame.font.SysFont("comicsans", 50) 
 
 class Player:
@@ -225,3 +219,4 @@ if __name__ == "__main__":
 # 	DefaultConnectionGene(key=(-1, 1), weight=-2.030443212728862, enabled=True)
 # 	DefaultConnectionGene(key=(-1, 2), weight=-1.0869417163203305, enabled=True)
 # 	DefaultConnectionGene(key=(2, 2), weight=0.6586795750845641, enabled=True)
+
